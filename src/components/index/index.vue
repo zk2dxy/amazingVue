@@ -2,6 +2,7 @@
   <div class="index">
     <!--module content-->
     index-vue
+    <i class="icon icon-search"></i>
   </div>
 </template>
 <script type="text/ecmascript-6">

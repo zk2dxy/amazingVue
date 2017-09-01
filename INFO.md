@@ -35,3 +35,11 @@
     // Log level. Can be 'info', 'warn', 'error' or 'silent'.
     logLevel: 'info'
   })
+
+2、webpack.base.conf.js => setting build for browser to support the es6 scripts
+  module.exports = {
+    entry: {
+      app: ['babel-polyfill', './src/main.js']
+    }
+  }
+
