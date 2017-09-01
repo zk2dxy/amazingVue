@@ -1,9 +1,6 @@
 import axios from 'axios'
 import { Message } from 'element-ui'
 // 引入其他的service
-export * from './services/dict'
-export * from './services/user-info'
-export * from './services/user'
 
 // 以下为axios全局设置
 // axios.defaults.withCredentials = true

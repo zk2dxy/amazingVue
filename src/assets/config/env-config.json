@@ -1,7 +1,7 @@
 {
   "baseUrl": {
-    "base": "http://192.168.13.31:8997/mockjsdata/18",
-    "common": "http://192.168.13.34:10001/v1/"
+    "base": "",
+    "common": ""
   },
   "page": {
     "defaultPageSize": 15,

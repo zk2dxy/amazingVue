@@ -8,20 +8,15 @@ import router from './router'
 import store from './store'
 import utils from './utils'
 import './assets/themes/default/css/reset.css'
-import './fonts/sceoIcon.styl'
-import config from './assets/config/env-config.json'
+import './fonts/icon.styl'
 
 Vue.config.productionTip = false
 
-Vue.prototype.CONFIG = config
 Vue.prototype.UTILS = utils
 
 Vue.use(ElementUI)
 
 // window窗口变化，记录窗口大小
-window.onresize = () => {
-  store.commit('windowStore/refresh')
-}
 
 /* eslint-disable no-new */
 var vue = new Vue({

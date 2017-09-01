@@ -1,4 +1,4 @@
-import index from '@/components/index.vue'
+import index from '@/components/index/index.vue'
 
 export default [{
   name: 'index',
